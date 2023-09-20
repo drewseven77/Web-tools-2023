@@ -1,0 +1,45 @@
+p {
+    color: #660000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(52, 129, 151);
+    font-style: italic;
+    height: 150px
+    
+}
+
+h1 {
+    font-size: 4em;
+    color: violet;
+padding: 20px 30px;
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(163, 236, 241);
+}
+nav {
+    width: 90%;
+    margin: 0 auto;
+    height: 20px;
+}
+nav {
+    padding: 10px 15px;
+    font-size: large;
+}
+/* .name makes a class  */
+
+a:link { color:#FF0000; } /* unvisited link */
+a:visited { color:#00FF00; } /* visited link */
+a:hover { color:#888088; } /* mouse over link */
+a:active { color:#0000FF; }  /* selected link */
