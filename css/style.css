@@ -1,45 +1,94 @@
-p {
-    color: #660000;
-    font-family: Arial, Helvetica, sans-serif;
-    
+h3,
+h2 {
+    color: rgb(25, 66, 103);
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+p {
+    color: #023d61;
+    font-family: unset;
+    font-size: large;
+    font-weight: 300;
+}
+
+.darkblue {
+    color: #023d61;
+
+}
+
+h4 {
+    color: rgb(25, 66, 103);
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 main {
     width: 80%;
     margin: 0 auto;
+
 }
 
 header {
-    background-color: rgb(52, 129, 151);
+    background-color: rgb(4, 42, 75);
     font-style: italic;
     height: 150px
-    
 }
 
 h1 {
     font-size: 4em;
-    color: violet;
-padding: 20px 30px;
+    color: rgb(99, 170, 246);
+    padding: 40px 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 body {
     margin: 0;
-    background-color: rgb(163, 236, 241);
+    background-color: rgb(132, 194, 228);
 }
+
 nav {
-    width: 90%;
-    margin: 0 auto;
-    height: 20px;
+    background-color: rgb(4, 42, 75);
+    padding: 20px 40px;
+    font-size: 115%;
 }
-nav {
-    padding: 10px 15px;
-    font-size: large;
-}
+
 /* .name makes a class  */
 
-a:link { color:#FF0000; } /* unvisited link */
-a:visited { color:#00FF00; } /* visited link */
-a:hover { color:#888088; } /* mouse over link */
-a:active { color:#0000FF; }  /* selected link */
+a:link {
+    color: rgb(136, 188, 243);
+    ;
+}
+
+
+a:visited {
+    color: #a7b4e9;
+}
+
+
+a:hover {
+    color: #0f7aee;
+}
+
+
+a:active {
+    color: #0000FF;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(4, 42, 75);
+    padding: 2px 10px;
+    
+
+}
+
+| 
+{
+    
+}
