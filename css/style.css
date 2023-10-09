@@ -91,3 +91,23 @@ gallery.html img {
     height: 250px;
     width: 250px;
 }
+fieldset {
+    align-self: center;
+    padding: 20px;
+    margin-bottom: 60px;
+
+}
+label {
+    font-size: larger;
+    
+
+}
+.contacth3 {
+    border-left-style: outset;
+    padding: 2px;
+    font-size: larger;
+    border-bottom-style: solid ;
+    background-color: rgb(171, 225, 244);
+}
+
+    

@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    align-self: center;
+    border-color: #1a80bf;
+border-width: 9px 11px;
+border-left-style: inset;
+border-right-style: outset;
+border-bottom-style: outset;
+border-top-style: inset ;
+ ;
+}
+
+
+table caption {
+    font-weight: 800;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    font-family: unset;
+    
+}
+
+tr {
+    border-bottom: thin solid #1a80bf;
+    color: rgb(25, 66, 103);
+}
+
+thead tr {
+    background-color: rgb(4, 42, 75);
+    color: rgb(99, 170, 246);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(176, 234, 244);
+}
