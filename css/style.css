@@ -1,3 +1,5 @@
+
+
 h3,
 h2 {
     color: rgb(25, 66, 103);
@@ -52,7 +54,7 @@ body {
 
 nav {
     background-color: rgb(4, 42, 75);
-    padding: 20px 40px;
+    padding: 0px 40px;
     font-size: 115%;
 }
 
@@ -65,7 +67,7 @@ a:link {
 
 
 a:visited {
-    color: #a7b4e9;
+    color: #a251ed;
 }
 
 
@@ -110,4 +112,4 @@ label {
     background-color: rgb(171, 225, 244);
 }
 
-    
+ 
