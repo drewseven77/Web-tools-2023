@@ -3,12 +3,12 @@ table {
     width: 50%;
     align-self: center;
     border-color: #1a80bf;
-border-width: 9px 11px;
-border-left-style: inset;
-border-right-style: outset;
-border-bottom-style: outset;
-border-top-style: inset ;
- ;
+    border-width: 9px 11px;
+    border-left-style: inset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-top-style: inset;
+    ;
 }
 
 
@@ -23,7 +23,7 @@ td {
     text-align: left;
     padding: 10px;
     font-family: unset;
-    
+
 }
 
 tr {
@@ -39,4 +39,3 @@ thead tr {
 tbody tr:nth-child(even) {
     background-color: rgb(176, 234, 244);
 }
-
