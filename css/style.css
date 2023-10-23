@@ -8,7 +8,7 @@ h2 {
 
 p {
     color: #023d61;
-    font-family: unset;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
     font-size: large;
     font-weight: 300;
 }
@@ -31,14 +31,14 @@ main {
 }
 
 header {
-    background-color: rgb(4, 42, 75);
+    background-color: #004581;
     font-style: italic;
     height: 150px
 }
 
 h1 {
     font-size: 4em;
-    color: rgb(99, 170, 246);
+    color: #e9f5ff ;
     padding: 40px 30px;
     font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
@@ -47,19 +47,19 @@ h1 {
 
 body {
     margin: 0;
-    background-color: rgb(132, 194, 228);
+    background-color: #b6ddff;
 }
 
 nav {
-    background-color: rgb(4, 42, 75);
-    padding: 0px 40px;
+    
+    padding: 0px 30px;
     font-size: 115%;
 }
 
 /* .name makes a class  */
 
 a:link {
-    color: #117fb2;
+    color: #e9f5ff ;
     ;
 }
 
@@ -82,15 +82,12 @@ a:active {
 
 footer {
     text-align: center;
-    background-color: rgb(4, 42, 75);
+    background-color:#004581 ;
     padding: 2px 10px;
-
+    
 }
 
-gallery.html img {
-    height: 250px;
-    width: 250px;
-}
+
 
 fieldset {
     align-self: center;
@@ -107,8 +104,25 @@ label {
 
 .contacth3 {
     border-left-style: outset;
-    padding: 2px;
+    padding-left: 15px;
     font-size: larger;
     border-bottom-style: solid;
-    background-color: rgb(171, 225, 244);
+    background-color: #004581;
+    color: #e9f5ff;
+}
+.cardimg {
+    max-width: fit-content;
+    float: left;
+   
+}
+.cardimgright {
+    max-width: fit-content;
+    float: right;
+    
+}
+.clearfloat {
+    clear: both;
+}
+.allign {
+    align-self: center;
 }

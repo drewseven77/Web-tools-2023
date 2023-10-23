@@ -1,14 +1,14 @@
 table {
     border-collapse: collapse;
-    width: 50%;
-    align-self: center;
+    width: 100%;
+   
     border-color: #1a80bf;
-    border-width: 9px 11px;
-    border-left-style: inset;
-    border-right-style: outset;
-    border-bottom-style: outset;
-    border-top-style: inset;
-    ;
+border-width: 9px 11px;
+border-left-style: inset;
+border-right-style: outset;
+border-bottom-style: outset;
+border-top-style: inset ;
+ ;
 }
 
 
@@ -21,19 +21,17 @@ table caption {
 th,
 td {
     text-align: left;
-    padding: 10px;
+    padding: 8px;
     font-family: unset;
-
 }
 
 tr {
     border-bottom: thin solid #1a80bf;
-    color: rgb(25, 66, 103);
 }
 
 thead tr {
-    background-color: rgb(4, 42, 75);
-    color: rgb(99, 170, 246);
+    background-color: rgb(8, 74, 112);
+    color: rgb(149, 214, 228);
 }
 
 tbody tr:nth-child(even) {

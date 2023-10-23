@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-menu.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -38,6 +39,7 @@
         <a class="active" href="contact-us.html">Contact</a>
         <a href="gallery.html">Gallery</a>
         <a href="faq.html">FAQs</a>
+        <a href="about-us.html">About Us</a>
     </nav>
     <main>
         <section>
@@ -45,7 +47,7 @@
             <p>
                 By filling out this form
             </p>
-            <fieldset>
+            <fieldset class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
 
                 <h3 class="contacth3"> Personal Information</h3>
                 <form id="myMailerForm" method="post" action="mailto:3616261@student.dcccd.edu">
@@ -75,10 +77,10 @@
 
                     <h3 class="contacth3">Message</h3>
                     <p>
-                        <label title="Select if you have a Question">Question <input type="radio"
+                        <label title="Select if you have a Question">Question <input class="w3-check" type="checkbox"
                                 name="request"></label>
                         <br>
-                        <label title="Select if you have a comment.">Comment <input type="radio" name="request"></label>
+                        <label title="Select if you have a comment.">Comment <input class="w3-check" type="checkbox" name="request"></label>
                     </p>
                     <p>
                         <label title="Subject of your problem.">Subject <input type="text" name="Email"
@@ -88,7 +90,8 @@
                         <label for="message">Message</label><br>
                         <textarea id="message" name="message"></textarea>
                     </p>
-                    <input type="submit" name="submit" value="Send E-Mail">
+                    
+                    <button class="w3-button w3-block w3-section w3-light-blue w3-ripple w3-padding">Send</button>
                 </form>
             </fieldset>
 
