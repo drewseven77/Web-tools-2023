@@ -59,7 +59,7 @@ nav {
 /* .name makes a class  */
 
 a:link {
-    color: #e9f5ff ;
+    color: #fc7979 ;
     ;
 }
 
@@ -70,7 +70,7 @@ a:visited {
 
 
 a:hover {
-    color: #0f7aee;
+    color: #6eabf0;
 }
 
 
@@ -125,4 +125,12 @@ label {
 }
 .allign {
     align-self: center;
+}
+
+.white{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #e9f5ff ;
+    padding: 40px 30px;
+    font-weight: 800;
 }
